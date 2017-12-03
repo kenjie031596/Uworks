@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="register">
+    <u>Register</u>
+  </string>
+
+  <string name="details">
+    <u>View Details</u>
+  </string>
+  
+  <string-array name="expertise_array">
+    <item>Therapist</item>
+    <item>Housekeeping</item>
+    <item>Plumber Services</item>
+    <item>Laundry</item>
+    <item>Carpentry</item>
+    <item>Nail Technician</item>
+  </string-array>
+  
+</resources>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyTheme.Splash" parent ="Theme.AppCompat.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>  
+    <item name="android:windowFullscreen">false</item>
+    <item name="android:windowContentOverlay">@null</item>  
+    <item name="android:windowActionBar">true</item>
+  </style>
+
+  <style name="MyCustomTheme" parent="Theme.AppCompat.Light">
+    <item name="actionBarStyle">@style/ActionBar</item>
+    
+    <item name="android:colorPrimary">@color/orange</item>
+    <item name="android:colorPrimaryDark">@color/darkOrange</item>
+    <item name="android:colorAccent">@color/orange</item>
+
+    <item name="android:colorControlActivated">@color/orange</item>
+    <item name="android:colorControlHighlight">@color/darkOrange</item>
+
+    <item name="android:colorButtonNormal">@color/orange</item>
+    
+    <item name="android:textColorPrimary">@color/black</item>
+    <item name="android:colorControlNormal">@color/gray</item>
+    <item name="android:editTextStyle">@style/EditTextStyle</item>
+  </style>
+
+  <style name="ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+    <item name="background">@color/orange</item>
+  </style>
+
+  <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColorHint">@color/gray</item>
+    <item name="android:singleLine">true</item>
+  </style>
+
+  <style name="ButtonColored" parent="Widget.AppCompat.Button.Colored">
+    <item name="android:colorButtonNormal">@color/orange</item>
+  </style>
+
+  <style name="AppTheme_Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:colorPrimary">@color/orange</item>
+    <item name="android:colorPrimaryDark">@color/darkOrange</item>
+    <item name="android:colorAccent">@color/orange</item>
+  </style>
+</resources>
